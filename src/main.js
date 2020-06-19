@@ -32,6 +32,7 @@ class App{
         event.preventDefault();
 
         const repoInput = this.inputEl.value;
+        this.inputEl.value = "";
 
         if(repoInput.length === 0){
             return;
